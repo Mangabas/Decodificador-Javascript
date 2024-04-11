@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descodificador</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <a class="alura" href="https://www.alura.com.br/"><img src="./assets/Frame 6.png" alt="Alura"></a>
+        </nav>
+
+    </header>
+    <main class="apresentacao">
+        <section class="digitar_texto">
+            <textarea id="texto" type="text" name="nome" value="" placeholder="Digite seu texto..."></textarea>
+            <section id="mensagem">
+                <img id="png" src="./assets/image.png">
+                <div id="textoPequeno">Apenas letras minúsculas e sem acento.</div>
+            </section>
+            <div class="menu_botoes">
+                <button onclick="criptografar()" class="button">Criptografar</button>
+                <button onclick="descriptografar()" class="button2">Descriptografar</button>
+            </div>
+        </section>
+        <section class="lista">
+            <img id="imagem" src="./assets/High quality products 1 1.png">
+            <h1 id="texto1">Nenhuma mensagem encontrada</h1>
+            <p1 id="texto2">Digite um texto que você deseja criptografar ou descriptografar.</p1>
+            <div id="texto3"></div>
+            <button onclick="copiar()" id="botao3">copiar</button>
+            
+
+        </section>
+        <footer class="footer">
+        </footer>
+        
+      
+    </main>
+    <footer></footer>
+    <script src="./app.js" defer></script>
+</body>
+</html>

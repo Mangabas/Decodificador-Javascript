@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho_menu{
+    padding: 1% 3%;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.apresentacao{
+    display: flex;;
+    flex-direction: row;
+    margin: 5%;
+}
+.digitar_texto{
+    width: 50%;
+    padding: 0% 20% 10% 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#texto{
+    border: none;
+    padding-bottom: 76%;
+    color:  #0A3871;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+#mensagem{
+    display: flex;
+    flex-direction: row;;
+}
+#png{
+    width: 2%;
+    margin: 1%;
+}
+#textoPequeno{
+    color:  #495057;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+
+}
+.menu_botoes{ 
+    display: flex;;
+    flex-direction: row;
+   
+}
+.button{
+    justify-content: center;
+    width: 55%;
+    margin-right: 24px;
+    padding: 3% 15%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color:  white;
+    background-color: #0A3871;
+    border: 2px solid #0A3871;
+    border-radius: 16px;
+    text-decoration: none;
+}
+.button2{
+    justify-content: center;
+    width: 55%;
+    margin-right: 24px;
+    padding: 3% 15%;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color:  #0A3871;
+    background-color: #ababab;
+    border-radius: 16px;
+    border: 2px solid #0A3871;
+    text-decoration: none;
+}
+
+.lista{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #343A40;
+    margin: 20px 0;
+}
+p1{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color:  #495057;
+}
+#texto::placeholder {
+    color: #0A3871;
+    opacity: 1;
+  }
+#texto:focus {
+    outline: none;
+}
+#texto3{
+    padding-bottom: 10%;
+    color:  #495057;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 55.5%;
+}
+#botao3{
+    margin: 20%;
+    padding: 3%;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color:  #0A3871;
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 2px solid #0A3871;
+    text-decoration: none;
+}
+#imagem{
+    justify-content: center;
+    width: 70%;
+}

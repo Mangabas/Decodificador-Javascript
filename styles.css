@@ -9,11 +9,13 @@
 }
 body{
     background-color: rgb(255, 255, 255);
+    height: 100vh;
 }
 .apresentacao{
     display: flex;;
     flex-direction: row;
     margin: 5%;
+    margin-bottom: 0%;
 }
 .digitar_texto{
     width: 50%;
@@ -63,6 +65,7 @@ body{
     border: 2px solid #0A3871;
     border-radius: 16px;
     text-decoration: none;
+    cursor: pointer;
 }
 .button2{
     justify-content: center;
@@ -77,6 +80,7 @@ body{
     border-radius: 16px;
     border: 2px solid #0A3871;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .lista{
@@ -124,8 +128,26 @@ p1{
     border-radius: 16px;
     border: 2px solid #0A3871;
     text-decoration: none;
+    cursor: pointer;
 }
 #imagem{
     justify-content: center;
     width: 70%;
+}
+.footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #0A3871;
+    padding-left: 40%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color:  #ffffff;
+    text-decoration: none;
+}
+#link{
+    text-decoration: none;
+    color: #ffffff;
 }

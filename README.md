@@ -42,7 +42,7 @@ Extra:
 
 ## Acessando o site
 - É possível visitar o projeto pelo github pages através de:  
--  https://mangabas.github.io/Decodificador-Javascript/
+https://mangabas.github.io/Decodificador-Javascript/
 
 ## Tecnologias
 - JavaScript
